@@ -147,3 +147,39 @@ button:hover {
 .darkmode h2 {
     color: #93c5fd;
 }
+
+a {
+    color: #2563eb;
+}
+
+.darkmode a {
+    color: #93c5fd;
+}
+
+.darkmode a:hover {
+    color: #bfdbfe;
+}
+
+section h3 {
+    margin-top: 25px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+#beruf p {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+#ausbildung li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
