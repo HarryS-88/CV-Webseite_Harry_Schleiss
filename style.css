@@ -5,8 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f5f9;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("images/tech-background.png");
+    background-size: cover;
+    background-attachment: fixed;
     color: #222;
     line-height: 1.6;
 }
@@ -24,11 +26,18 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    color: #94a3b8;
+}
+
 header {
-    background-color: #1e293b;
+    background-image:url("images/header-bg.png");
+    background-size: cover;
+    background-position: center;
+
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 header h1 {
@@ -41,12 +50,21 @@ header p {
 }
 
 section {
-    background-color: white;
+    background-color: rgba(245, 248, 255, 0.863);
     width: 80%;
-    margin: 30px auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.15),
+    0 0 15px rgba(59, 130, 246, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.486), 0 0 18px rgba(59, 131, 246, 0.699);
+    border: 1px solid rgba(59, 130, 246, 0.55);
 }
 
 h2 {
@@ -66,6 +84,15 @@ footer {
     margin-top: 40px;
 }
 
+.profilbild {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 32px;
@@ -80,4 +107,5 @@ footer {
         display: block;
         margin: 10px 0;
     }
+    
 }
