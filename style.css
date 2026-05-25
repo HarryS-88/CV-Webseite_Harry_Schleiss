@@ -183,3 +183,70 @@ section li {
     justify-content: space-between;
     flex-wrap:wrap;
 }
+
+#reaction-test {
+    text-align:center;
+}
+
+#reaction-test button {
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#reaction-test button:hover {
+    background-color: #2563eb;
+}
+
+#reaction-box {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+#reaction-result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.darkmode #reaction-test button {
+    background-color:#2563eb;
+    color:white
+}
+
+.darkmode #reaction-test button:hover {
+    background-color: #3b82f6;
+}
+
+.button-container button {
+    background-color:#1e293b;
+    color:white;
+    border:none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.button-container button:hover {
+    background-color:#2563eb;
+}
+
+.darkmode .button-container button {
+    background-color:#2563eb;
+    color:white;
+}
+
+.darkmode .button-container button:hover {
+    background-color: #3b82f6;
+}

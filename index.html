@@ -24,7 +24,7 @@
     </nav>
 
     <div class="button-container">
-        <button onclick="toggleDarkMode()">Dark Mode</button>
+        <button id="mode-button" onclick="toggleDarkMode()">Dark Mode</button>
     </div>
 
     <header>
@@ -162,6 +162,14 @@
             <li>UML Diagramme und technische Dokumentationen</li>
         </ul>
 
+    </section>
+
+    <section id="reaction-test">
+        <h2>Reaction Test</h2>
+        <p>Teste deine Reaktionszeit 🚀</p>
+        <button onclick ="startReactionTest()">Start Test</button>
+        <div id="reaction-box"></div>
+        <p id="reaction-result"></p>
     </section>
 
     <section id="kontakt">
