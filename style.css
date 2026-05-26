@@ -221,7 +221,7 @@ section li {
 
 .darkmode #reaction-test button {
     background-color:#2563eb;
-    color:white
+    color:white;
 }
 
 .darkmode #reaction-test button:hover {

@@ -37,4 +37,3 @@ document.getElementById("reaction-box").onclick = function() {
 
     this.style.display = "none";
 } 
-
