@@ -206,7 +206,7 @@ section li {
 #reaction-box {
     width: 250px;
     height: 250px;
-    background-color: red;
+    background-color: #475569;
     margin: 30px auto;
     border-radius: 15px;
     display: none;

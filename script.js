@@ -15,7 +15,8 @@ function startReactionTest() {
     const result = document.getElementById("reaction-result");
 
     result.innerHTML = "Warte auf Grün...👀";
-    box.style.display = "none";
+    box.style.display = "block";
+    box.style.backgroundColor = "#475569";
 
     let randomTime = Math.random()*3000 +2000; // 2-5 Sekunden
 
@@ -29,6 +30,9 @@ function startReactionTest() {
 }
 
 document.getElementById("reaction-box").onclick = function() {
+    if (this.style.backgroundColor !== "green") {
+        return;
+    }
 
     let endTime = Date.now();
     let reactionTime = (endTime - startTime) / 1000; // in Sekunden
