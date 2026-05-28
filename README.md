@@ -3,6 +3,10 @@
 ## Projektbeschreibung
 Dieses Projekt wurde im Modul Web Programming Basics erstellt.
 
+## Live Webseite
+
+**Projektwebseite: → [CV-Webseite Harry Schleiss](https://harrys-88.github.io/CV-Webseite_Harry_Schleiss/)**
+
 Die Webseite dient als persöhnliche CV-Webseite und wurde mit HTML, CSS und Javascript entwickelt.
 - Darkmode
 - Login-Seite mit Passwort
@@ -10,9 +14,9 @@ Die Webseite dient als persöhnliche CV-Webseite und wurde mit HTML, CSS und Jav
 - Responsive Design für Mobile und Desktop
 
 ## Verwendete Technologien
-- HTML
-- CSS
-- JavaScript
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 ## Funktionen
 - Navigation zu verschiedenen Bereichen
